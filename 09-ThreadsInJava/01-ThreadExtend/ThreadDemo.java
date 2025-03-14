@@ -13,7 +13,6 @@
  * Thread(Runnable r)
  * Thread(Runnable r,String name)
  */
-
 class ThreadX extends Thread {
     public void run() {
         for (int i = 0; i <= 5; i++) {
