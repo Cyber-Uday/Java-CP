@@ -31,8 +31,7 @@ public class RombhusPattern {
                     s2++;
                 }
                 System.out.print("* ");
-            }
-            row++;
+            }row++;
             space1--;
             System.out.println();
         }

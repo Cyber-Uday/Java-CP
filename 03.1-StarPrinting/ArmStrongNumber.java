@@ -1,8 +1,7 @@
 import java.util.*;
-
 public class ArmStrongNumber {
     public static void main(String[] args) {
-        int no = 371;
+        int no = 1522;
         isArmStrong(no);
     }
     public static void isArmStrong(int no) {
@@ -22,15 +21,12 @@ public class ArmStrongNumber {
         } else {
             System.out.println("THIS IS NOT AN ARM STRONG NUMBER");
         }
-
     }
-
     public static int NumberOfDigits(int no) {
         int count = 0;
         while (no > 0) {
             no /= 10;
             count++;
-        }
-        return count;
+        }return count;
     }
 }
